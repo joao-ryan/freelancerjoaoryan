@@ -22,7 +22,7 @@ export const About = () => {
           <div className="aspect-[3/4] max-w-md mx-auto lg:mx-0 relative rounded-[2.5rem] p-3 glass border border-glass-border">
             <div className="absolute inset-0 bg-gradient-to-tr from-accent-blue/5 to-transparent rounded-[2.5rem] opacity-50" />
             <img 
-              src="/joaoryan2.png" 
+              src="/joaoryan2.webp" 
               alt="João Ryan - Arquiteto de Software" 
               className="w-full h-full object-cover rounded-[2rem]"
             />

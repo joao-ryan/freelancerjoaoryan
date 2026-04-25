@@ -7,32 +7,32 @@ const PROJECTS = [
   {
     title: 'Nik Makeup Studio',
     category: 'Estética & Beleza',
-    image: '/nikmakeup.png',
+    image: '/nikmakeup.webp',
   },
   {
     title: 'Paju Automóveis',
     category: 'Concessionárias',
-    image: '/pajuautomoveis.png',
+    image: '/pajuautomoveis.webp',
   },
   {
     title: 'Dra. Rafaela – Odontologia',
     category: 'Clínicas & Saúde',
-    image: '/rafaeladentista.png',
+    image: '/rafaeladentista.webp',
   },
   {
     title: 'Valentina Designer',
     category: 'Designers',
-    image: '/valentinadesigner.png',
+    image: '/valentinadesigner.jpg',
   },
   {
     title: 'Arizona Barbearia',
     category: 'Estética & Beleza',
-    image: '/arizonabarbearia.png',
+    image: '/arizonabarbearia.webp',
   },
   {
     title: 'Cartilho Advocacia',
     category: 'Advogados',
-    image: '/cartilho.png',
+    image: '/cartilho.webp',
   }
 ];
 
