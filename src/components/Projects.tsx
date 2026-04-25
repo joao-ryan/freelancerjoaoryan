@@ -3,43 +3,36 @@ import { ArrowUpRight, Sparkles } from 'lucide-react';
 import React, { useState } from 'react';
 import { cn } from '../lib/utils';
 
-import imgNikMakeup from './nikmakeup.png';
-import imgPaju from './pajuautomoveis.png';
-import imgRafaela from './rafaeladentista.png';
-import imgValentina from './valentinadesigner.png';
-import imgArizona from './arizonabarbearia.png';
-import imgCartilho from './cartilho.png';
-
 const PROJECTS = [
   {
     title: 'Nik Makeup Studio',
     category: 'Estética & Beleza',
-    image: imgNikMakeup,
+    image: '/nikmakeup.png',
   },
   {
     title: 'Paju Automóveis',
     category: 'Concessionárias',
-    image: imgPaju,
+    image: '/pajuautomoveis.png',
   },
   {
     title: 'Dra. Rafaela – Odontologia',
     category: 'Clínicas & Saúde',
-    image: imgRafaela,
+    image: '/rafaeladentista.png',
   },
   {
     title: 'Valentina Designer',
     category: 'Designers',
-    image: imgValentina,
+    image: '/valentinadesigner.png',
   },
   {
     title: 'Arizona Barbearia',
     category: 'Estética & Beleza',
-    image: imgArizona,
+    image: '/arizonabarbearia.png',
   },
   {
     title: 'Cartilho Advocacia',
     category: 'Advogados',
-    image: imgCartilho,
+    image: '/cartilho.png',
   }
 ];
 

@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 import { Instagram, Linkedin, ArrowUpRight, Zap, Shield, Globe } from 'lucide-react';
 import React from 'react';
 import { Button } from './ui/Button';
-import joaoRyanImg from './joaoryan.png';
+// Import removed
 
 export const Hero = () => {
   return (
@@ -84,7 +84,7 @@ export const Hero = () => {
            <div className="relative aspect-[3/4] rounded-[2rem] overflow-hidden glass p-3 shadow-2xl">
               <div className="absolute inset-0 bg-gradient-to-tr from-accent-blue/10 to-transparent rounded-[2.5rem] opacity-70" />
               <img 
-                src={joaoRyanImg} 
+                src="/joaoryan.png" 
                 alt="João Ryan" 
                 className="w-full h-full object-cover rounded-[1.5rem] grayscale-[0.2] hover:grayscale-0 transition-all duration-700"
               />
